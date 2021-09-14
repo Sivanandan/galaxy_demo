@@ -12,12 +12,13 @@
 cd /90daydata/galaxy/upload/USER.NAME@usda.gov
 ```
 
-## Example Dataset 
-
+## Example Pipeline Hisat2
 
 ```
-# wget statements here
+# === Reference Genome (Maize)
+wget http://ftp.ebi.ac.uk/ensemblgenomes/pub/release-51/plants/fasta/zea_mays/dna/Zea_mays.Zm-B73-REFERENCE-NAM-5.0.dna.toplevel.fa.gz
 
+# === RNA Seq dataset
 wget ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR679/005/SRR6792525/SRR6792525_1.fastq.gz
 wget ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR679/005/SRR6792525/SRR6792525_2.fastq.gz
 ```
@@ -67,28 +68,25 @@ wget ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR679/005/SRR6792545/SRR6792545_2.fastq
 ```
 -->
 
-* Maize Dataset
-```
-wget http://ftp.ebi.ac.uk/ensemblgenomes/pub/release-51/plants/fasta/zea_mays/dna/Zea_mays.Zm-B73-REFERENCE-NAM-5.0.dna.toplevel.fa.gz
-```
-* Walk through HiSat2
-* Setting options
-* 
+
+* Search for HISAT2 in tools
+* Connect dataset
+* Hit Run
+* optional - check if running on slurm queue
 
 ```
 squeue -u galaxy-service # quota
 show jobs IDHERE
-ssh 
+ssh  # debugging info
 ```
 
 /luster/project/galaxy/galaxy-py3/galaxy-base/database/jobs_directory/.../.../working
 
 
-## How to request software
+## How to request software added to galaxy
 
 * Check for software on https://toolshed.g2.bx.psu.edu/
 * Email VRSC@usda.gov requesting a tool and version
 
-## Is there a way to share dataset
 
 
