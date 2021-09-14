@@ -68,7 +68,9 @@ wget ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR679/005/SRR6792545/SRR6792545_2.fastq
 -->
 
 * Maize Dataset
-
+```
+wget http://ftp.ebi.ac.uk/ensemblgenomes/pub/release-51/plants/fasta/zea_mays/dna/Zea_mays.Zm-B73-REFERENCE-NAM-5.0.dna.toplevel.fa.gz
+```
 * Walk through HiSat2
 * Setting options
 * 
