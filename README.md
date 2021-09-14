@@ -17,9 +17,13 @@ cd /90daydata/galaxy/upload/USER.NAME@usda.gov
 
 ```
 # wget statements here
-```
+
 wget ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR679/005/SRR6792525/SRR6792525_1.fastq.gz
 wget ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR679/005/SRR6792525/SRR6792525_2.fastq.gz
+```
+
+<!--
+```
 wget ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR679/006/SRR6792526/SRR6792526_1.fastq.gz
 wget ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR679/006/SRR6792526/SRR6792526_2.fastq.gz
 wget ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR679/007/SRR6792527/SRR6792527_1.fastq.gz
@@ -60,6 +64,8 @@ wget ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR679/004/SRR6792544/SRR6792544_1.fastq
 wget ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR679/004/SRR6792544/SRR6792544_2.fastq.gz
 wget ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR679/005/SRR6792545/SRR6792545_1.fastq.gz
 wget ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR679/005/SRR6792545/SRR6792545_2.fastq.gz
+```
+-->
 
 * Maize Dataset
 
