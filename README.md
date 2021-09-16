@@ -86,7 +86,7 @@ ssh  # debugging info
 ## How to request software added to galaxy
 
 * Check for software on https://toolshed.g2.bx.psu.edu/
-* Email VRSC@usda.gov requesting a tool and version
+* Email scinet_vrsc@usda.gov requesting a tool and version
 
 
 
