@@ -5,8 +5,14 @@
 * Log into SCINet Galaxy at: [galaxy.scinet.usda.gov](galaxy.scinet.usda.gov)
 * Panels are split into Tools, Main, and History
 * Describe histories (new history)
+
 * Get Data/Upload File
+  * Upload from local computer
+  * paste web link or ftp link
   * ftp by placing files in `/90daydata/galaxy/upload/USERNAME@usda.gov/`
+  * get files from NCBI etc
+
+
 
 ```
 cd /90daydata/galaxy/upload/USER.NAME@usda.gov
